@@ -2,17 +2,11 @@ package com.space.controller;
 
 import com.space.model.Ship;
 import com.space.model.ShipType;
-import com.space.repository.CosmoportRepository;
-import com.space.exceptions.BadRequestException;
-import com.space.exceptions.NotFoundException;
 import com.space.service.ShipService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.List;
 
 @RestController
 //@RequestMapping()
